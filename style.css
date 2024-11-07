@@ -71,7 +71,7 @@ section {
     width: 100%;
     height: 100%;
     border-radius: 100px 100px 100px 100px;
-    box-shadow: 0 5px 5px 5px rgb(206, 228, 7);
+    box-shadow: 0 5px 5px 5px rgb(201, 133, 69);
     border-radius: 61% 39% 36% 64% / 57% 56% 44% 43%;
 }
 
@@ -115,7 +115,7 @@ section {
     height: auto;
     border-radius: 20px;
     /* border-radius: 100px 100px 100px 100px; */
-    box-shadow: 0 5px 5px 5px rgb(206, 228, 7);
+    box-shadow: 0 5px 5px 5px rgb(224, 142, 95);
     /* border-radius: 61% 39% 36% 64% / 57% 56% 44% 43%; */
 }
 
@@ -149,17 +149,41 @@ section {
     align-items: center;
 }
 
-.dampak .content3 .box {
-    width: 100%;                
+.dampak .content3 .box1 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.dampak .content3 .box2 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.dampak .content3 .box1 {
+    width: 100%;  
+    height: 540px;              
     padding: 20px;              
-    margin: 20px;
-    font-size: 1.5rem;              
+    margin: 0;
+    font-size: 1.3rem;              
     background-color: bisque;  
     border: 2px solid #ccc;     
     border-radius: 10px;        
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.dampak .content3 .box2 {
+    width: 100%;  
+    height: 540px;              
+    padding: 20px;              
+    margin: 0;
+    font-size: 1.3rem;              
+    background-color: burlywood;  
+    border: 2px solid #ccc;     
+    border-radius: 10px;        
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
 
 
