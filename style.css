@@ -1,3 +1,9 @@
+html {
+    overflow: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+
 header {
     background: bisque;
     padding: 2rem;
@@ -40,6 +46,7 @@ header .menu a {
 
 header .menu a:hover {
     background: white;
+    transition: ease-in-out .3s;
     border-radius: 10px 10px 10px 10px;
 }
 
